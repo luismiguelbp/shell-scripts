@@ -8,9 +8,9 @@
 # The above will handle all files NOT found below
 #
 # These files are text and should be normalized (Convert crlf => lf)
-*.gitattributes text
-.gitignore text
-*.md text
+*.gitattributes	text
+.gitignore		text
+*.md			text
 
 # Documents
 *.doc	diff=astextplain
@@ -222,6 +222,22 @@ Procfile    text
 *.woff  binary
 *.woff2 binary
 
-## EXECUTABLES
+## Binary
+# Denote all files that are truly binary and should not be mergeable.
 *.exe binary
+*.dll binary
 *.pyc binary
+
+# Declare files that will always have CRLF line endings on checkout.
+# PowerShell
+*.ps1    text  eol=crlf
+*.psm1   text  eol=crlf
+*.psd1   text  eol=crlf
+*.psc1   text  eol=crlf
+*.ps1xml text  eol=crlf
+*.clixml text  eol=crlf
+*.txt    text  eol=crlf
+# VBScript
+*.vbs text
+# Batch
+# Bash
