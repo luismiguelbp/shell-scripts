@@ -1,0 +1,11 @@
+## Ignore temporary files, build results, and other files
+
+####################################################################
+# Mis directorios y ficheros privados que NO se deben publicar.
+Local/
+####################################################################
+# Ficheros que NO debemos publicar NUNCA en el repositorio.
+# Hay que actualizar este listado con los ficheros críticos.
+license.*
+licencia.*
+####################################################################
