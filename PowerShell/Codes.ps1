@@ -11,7 +11,7 @@ Write-Host "PowerShell version: " $sVersion
 
 #Start-Sleep –Seconds 5
 
-$iMinutes = $args[0]
+#$iMinutes = $args[0]
 
 <#
 Write-Host –NoNewLine "Counting from 1 to 9 (in seconds): "
